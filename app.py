@@ -5,7 +5,7 @@ from stock_analysis.stock_data import load_stock_data, available_stocks, modify_
 from stock_analysis.stock_plots import altair_chart
 
 if __name__ == "__main__":
-    st.title('Stock Analysis')
+    st.title('Stock Viewer')
     modify_checkbox = st.sidebar.checkbox("Modify stock list")
     if modify_checkbox:
         selected_stocks = st.empty()
